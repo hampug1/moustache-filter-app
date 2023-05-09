@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+background-color: rgba(44, 142, 234, 0.941);
+}
+canvas{
+    animation-name:shop;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shop{
+    from{box-shadow: 1px 1px 38px rgba(94, 193, 125, 0.931) ;}
+    to{box-shadow: 1px 1px 38px rgba(242, 83, 231, 0.941);}
+}
